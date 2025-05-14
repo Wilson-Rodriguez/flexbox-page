@@ -28,12 +28,54 @@ ul {
     font-weight: bold;
     color: white;
     font-size: 18px;
+    
 }
 
 .section-1 {
     flex: 1;
     background-color: #1F2937;
+    display: flex;
+    padding: 50px 80px 50px 80px;
+    gap: 30px;
 }
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(82, 82, 238);
+    color: white;
+    font-weight: bold;
+}
+
+.left-section-1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+}
+
+.right-section-1 {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.534);
+    flex: 1;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 .section-2 {
     flex: 1;
