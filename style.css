@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+
+.header {
+    flex: 0.2;
+    background-color: #1F2937;
+}
+.section-1 {
+    flex: 1;
+    background-color: #1F2937;
+}
+
+.section-2 {
+    flex: 1;
+    background-color: white;
+}
+
+.section-3 {
+    flex: 1;
+    background-color: lightgray;
+}
+
+.section-4 {
+    flex: 0.7;
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    flex: 0.3;
+}
