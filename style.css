@@ -114,6 +114,17 @@ button {
 .section-3 {
     flex: 1;
     background-color: lightgray;
+    padding: 60px 200px;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 24px;
+}
+
+#cite {
+    text-align: right;
+    font-weight: bold;
 }
 
 .section-4 {
